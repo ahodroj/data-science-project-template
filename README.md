@@ -2,7 +2,7 @@
 
 _A logical, reasonably standardized, but flexible project structure for doing and sharing data science work._
 
-Based on: [Cookie Cutter Data Science Template](http://drivendata.github.io/cookiecutter-data-science/) with minor modifications to support my data storage. 
+Based on: [Cookie Cutter Data Science Template](http://drivendata.github.io/cookiecutter-data-science/) with minor modifications to support rclone for data sync. 
 
 
 ### Requirements to use the cookiecutter template:
