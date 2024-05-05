@@ -1,8 +1,8 @@
-# Cookiecutter Data Science Project Template
+# Data Science Project Template
 
 _A logical, reasonably standardized, but flexible project structure for doing and sharing data science work._
 
-Based on: #### [Project homepage](http://drivendata.github.io/cookiecutter-data-science/)
+Based on: [Cookie Cutter Data Science Template](http://drivendata.github.io/cookiecutter-data-science/) with minor modifications to support my data storage. 
 
 
 ### Requirements to use the cookiecutter template:
@@ -83,9 +83,6 @@ The directory structure of your new project looks like this:
 └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 ```
 
-## Contributing
-
-We welcome contributions! [See the docs for guidelines](https://drivendata.github.io/cookiecutter-data-science/#contributing).
 
 ### Installing development requirements
 ------------
