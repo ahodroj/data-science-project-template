@@ -5,7 +5,7 @@
 #################################################################################
 
 PROJECT_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
-REMOTE_FOLDER = {{ cookiecutter.rclone_path }}
+REMOTE_PATH = {{ cookiecutter.rclone_path }}
 REMOTE_DRIVE = {{ cookiecutter.rclone_drive }}
 PROJECT_NAME = {{ cookiecutter.repo_name }}
 PYTHON_INTERPRETER = {{ cookiecutter.python_interpreter }}
