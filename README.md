@@ -4,7 +4,6 @@ _A logical, reasonably standardized, but flexible project structure for doing an
 
 Based on: [Cookie Cutter Data Science Template](http://drivendata.github.io/cookiecutter-data-science/) with minor modifications to support rclone for data sync. 
 
-
 ### Requirements to use the cookiecutter template:
 -----------
  - Python 2.7 or 3.5+
@@ -26,9 +25,6 @@ $ conda install cookiecutter
 ------------
 
     cookiecutter https://github.com/ahodroj/data-science-project-template
-
-
-[![asciicast](https://asciinema.org/a/244658.svg)](https://asciinema.org/a/244658)
 
 
 ### The resulting directory structure
