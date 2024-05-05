@@ -3,8 +3,8 @@ Commands
 
 The Makefile contains the central entry points for common tasks related to this project.
 
-Syncing data to S3
-^^^^^^^^^^^^^^^^^^
+Syncing data to your remote drive
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* `make sync_data_to_s3` will use `aws s3 sync` to recursively sync files in `data/` up to `s3://{{ cookiecutter.s3_bucket }}/data/`.
-* `make sync_data_from_s3` will use `aws s3 sync` to recursively sync files from `s3://{{ cookiecutter.s3_bucket }}/data/` to `data/`.
+* `make copy_data` will use `rclone copyto` to recursively sync files in `data/` up to `{{ cookiecutter.rclone_drive }}:{{ cookiecutter.rclone_path }}`.
+* `make sync_data` will use `rclone sync` to recursively sync files from `{{ cookiecutter.rclone_drive }}:{{ cookiecutter.rclone_path }}` to `data/`.
