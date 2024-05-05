@@ -38,6 +38,14 @@ clean:
 lint:
 	flake8 src
 
+## Upload Data to Google Drive using rclone
+sync_data_from_gdrive:
+	rclone copyto google:$(BUCKET) data/
+
+## Upload Data to Google Drive using rclone
+sync_data_to_gdrive:
+	rclone sync data/ google:$(BUCKET)
+
 ## Upload Data to S3
 sync_data_to_s3:
 ifeq (default,$(PROFILE))
